@@ -1,0 +1,73 @@
+*{
+    margin:0%;
+    padding:0%;
+ box-sizing: border-box;
+}
+
+html,body{
+   height:100%;
+width:100%;
+color: white;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background:linear-gradient(150deg,rgb(84, 6, 84),rgb(22, 22, 93));
+    font-family:'Courier New', Courier, monospace;
+}
+.top{
+   
+     padding: 40px;
+}
+.mid{
+    margin-top: 30px;
+
+}
+
+.form{
+    display: flex;
+    flex-direction:column;
+  align-items: center;
+    border: 2px solid white;
+    padding: 70px;
+    border-radius: 20px;
+}
+
+#guess{
+    font-weight: 600;
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+#submit{
+    margin-top: 30px;
+    padding: 8px;
+   border-radius: 10px;
+ font-weight: 600;
+ font-size: larger;
+
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-size: larger;
+}
+#newGame{
+    margin-top: 10px;
+    border:1px solid white;
+    padding: 10px;
+}
+#newGame:hover{
+  background:linear-gradient(190deg,rgb(58, 7, 58),rgb(8, 8, 72));
+}
+input{
+    border-radius: 8px;
+}
+input:hover{
+    color: white;
+    background-color: black;
+}
