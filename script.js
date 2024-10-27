@@ -82,6 +82,7 @@ function startGame(){
     prevGuess=[]
     attempt=1
     input.value=''
+    guesses.innerHTML=''
     remaining.innerHTML=`${11-attempt}`
     input.removeAttribute('disabled')
     bottom.removeChild(p)
