@@ -66,6 +66,7 @@ color: white;
 }
 input{
     border-radius: 8px;
+     height: 25px;
 }
 input:hover{
     color: white;
