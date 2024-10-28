@@ -25,7 +25,7 @@ color: white;
 }
 
 .form{
-      background-color: rgba(255, 255, 255, 0.2);
+      background-color: rgba(255, 255, 255, 0.17);
     backdrop-filter: blur(2px);
     display: flex;
     flex-direction:column;
